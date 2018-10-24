@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ebd2f92f-d016-4b17-85bc-a16c818c3714" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Interplotation.py" beforeDir="false" afterPath="$PROJECT_DIR$/Interplotation.py" afterDir="false" />
-    </list>
+    <list default="true" id="ebd2f92f-d016-4b17-85bc-a16c818c3714" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,23 +27,23 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="jpg" value="1" />
-          <entry key="py" value="6" />
+          <entry key="py" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Image" value="1" />
-          <entry key="Python" value="6" />
+          <entry key="Python" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="105" />
+          <entry key="py" value="119" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="105" />
+          <entry key="Python" value="119" />
         </counts>
       </usages-collector>
     </session>
@@ -100,11 +98,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Interplotation.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="119">
               <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Cropping.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="40" lean-forward="true" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -136,10 +143,11 @@
         <option value="$PROJECT_DIR$/RGB_Converter.py" />
         <option value="$PROJECT_DIR$/Translation.py" />
         <option value="$PROJECT_DIR$/Interplotation.py" />
+        <option value="$PROJECT_DIR$/Cropping.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="10" />
     <option name="y" value="20" />
     <option name="width" value="1346" />
@@ -197,8 +205,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Interplotation">
-    <configuration name="Grayscale" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.Cropping">
+    <configuration name="Cropping" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Object Recognizer" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -210,7 +218,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Grayscale.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Cropping.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -304,19 +312,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.Grayscale" />
       <item itemvalue="Python.HSV_Converter" />
       <item itemvalue="Python.RGB_Converter" />
       <item itemvalue="Python.Translation" />
       <item itemvalue="Python.Interplotation" />
+      <item itemvalue="Python.Cropping" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Cropping" />
         <item itemvalue="Python.Interplotation" />
         <item itemvalue="Python.Translation" />
         <item itemvalue="Python.RGB_Converter" />
         <item itemvalue="Python.HSV_Converter" />
-        <item itemvalue="Python.Grayscale" />
       </list>
     </recent_temporary>
   </component>
@@ -405,6 +413,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cropping.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="40" lean-forward="true" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
         </state>
       </provider>
     </entry>
