@@ -1,12 +1,22 @@
+
 import cv2
+import matplotlib.pyplot as plt
 
 cap = cv2.VideoCapture(0)
 
-while True:
+if cap.isOpened():
     ret, frame = cap.read()
-    cv2.imshow('Live Screen', frame)
-    if cv2.waitKey(1)==13:
-        break
+    print(ret)
+    print(frame)
+else:
+    ret = False
+
+img1 = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
+
+plt.imshow(img1)
+plt.title('Image Camera-1')
+plt.xticks([])
+plt.yticks([])
+plt.show()
 
 cap.release()
-cv2.destroyAllWindows()
