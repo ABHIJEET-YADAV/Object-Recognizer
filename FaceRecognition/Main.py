@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 
-face_classifier = cv2.CascadeClassifier('"venv/Lib/site-packages/cv2/data/haarcascade_frontalcatface.xml"')
+face_classifier = cv2.CascadeClassifier('"venv/Lib/site-packages/cv2/data/haarcascade_frontalface_default.xml"')
 
 
 def face_extractor(img):
