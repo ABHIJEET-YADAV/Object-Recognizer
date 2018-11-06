@@ -28,7 +28,7 @@ while True:
         face = cv2.resize(face_extractor(frame),(200,200))
         face = cv2.cvtColor(face, cv2.COLOR_BGR2GRAY)
 
-        file_name_path = 'FaceRecognition / Faces/user'+str(count)+'.jpg'
+        file_name_path = 'FaceRecognition/Faces/user'+str(count)+'.jpg'
 
         cv2.imwrite(file_name_path,face)
 
