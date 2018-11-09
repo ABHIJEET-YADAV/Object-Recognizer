@@ -14,3 +14,5 @@ for i, files in enumerate(onlyfiles):
     images = cv2.imread(image_path, cv2.IMREAD_GRAYSCALE)
     Training_Data.append(np.asarray(images, dtype=np.uint8))
     Labels.append(i)
+
+print("Model Training Done")
