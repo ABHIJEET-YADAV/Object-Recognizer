@@ -16,3 +16,5 @@ for i, files in enumerate(onlyfiles):
     Labels.append(i)
 
 print("Model Training Done")
+
+face_classifier = cv2.CascadeClassifier('"venv/Lib/site-packages/cv2/data/haarcascade_frontalface_default.xml"')
