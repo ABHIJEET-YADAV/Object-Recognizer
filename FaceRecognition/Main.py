@@ -63,7 +63,6 @@ while True:
             cv2.putText(image, "Locked", (250, 450), cv2.FONT_HERSHEY_COMPLEX, 1, (0, 0, 255), 2)
             cv2.imshow('Face Cropper', image)
 
-
     except:
         cv2.putText(image, "Face Not Found", (250, 450), cv2.FONT_HERSHEY_COMPLEX, 1, (255, 0, 0), 2)
         cv2.imshow('Face Cropper', image)
@@ -71,7 +70,6 @@ while True:
 
     if cv2.waitKey(1)==13:
         break
-
 
 cap.release()
 cv2.destroyAllWindows()
