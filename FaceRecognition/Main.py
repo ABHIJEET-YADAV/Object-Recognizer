@@ -20,7 +20,7 @@ model = cv2.face.LBPHFaceRecognizer_create()
 
 model.train(np.asarray(Training_Data), np.asarray(Labels))
 
-print("Model Training Complete!!!!!")
+print("Model Training Done")
 
 face_classifier = cv2.CascadeClassifier('venv/Lib/site-packages/cv2/data/haarcascade_frontalface_default.xml')
 
